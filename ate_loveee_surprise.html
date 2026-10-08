@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Ate Loveee ❤️</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at top,#3b1827,#120b11 65%);color:#fff7fa;font-family:Georgia,serif;display:flex;align-items:center;justify-content:center;padding:24px}
+.card{width:min(680px,100%);text-align:center;padding:42px 28px;border:1px solid rgba(255,255,255,.16);border-radius:28px;background:rgba(255,255,255,.06);backdrop-filter:blur(12px);box-shadow:0 20px 70px rgba(0,0,0,.45)}
+.heart{font-size:42px;animation:pulse 1.8s infinite}@keyframes pulse{50%{transform:scale(1.08)}}
+h1{font-size:clamp(32px,8vw,54px);margin:12px 0 8px;font-weight:400}.sub{opacity:.75;font-family:Arial,sans-serif;letter-spacing:2px;font-size:12px;text-transform:uppercase}
+button,a.btn{border:0;border-radius:999px;padding:14px 24px;background:#fff;color:#32111f;font-weight:bold;text-decoration:none;display:inline-block;margin-top:22px;cursor:pointer}
+.hidden{display:none}.message{font-family:Arial,sans-serif;line-height:1.8;text-align:left;margin-top:28px;color:#f9e9ef}.message p{margin:18px 0}.signature{text-align:center;font-family:Georgia,serif;font-size:22px;margin-top:30px}
+.note{font-size:12px;opacity:.55;margin-top:28px;font-family:Arial,sans-serif}
+</style>
+</head>
+<body>
+<main class="card">
+<div class="heart">♥</div>
+<div class="sub">a little secret made just for you</div>
+<h1>Ate Loveee</h1>
+<p id="intro">You weren't supposed to find this so easily... but I'm glad you did.</p>
+<button id="open">Open your surprise</button>
+
+<section id="reveal" class="hidden">
+<div class="message">
+<p>Ate Loveee,</p>
+<p>I don't know if I could ever find the perfect words for how much I love and appreciate you, but I wanted to try.</p>
+<p>I love your <b>eyes</b>, especially those little milliseconds when our eyes meet. Sometimes it's only for a moment, but somehow that tiny moment stays with me much longer.</p>
+<p>I love your <b>voice when you sing</b>. There's something about hearing you sing that makes me want to stop and simply listen.</p>
+<p>I love your <b>hair</b>, too, not because it's something I can put into a perfect description, but because it's part of you, and I find myself noticing the little things that make you, you.</p>
+<p>And I love the way you <b>communicate</b>. The way you express yourself, the little things you say, the way conversations with you can make an ordinary moment feel special.</p>
+<p>Maybe those things sound small. But that's exactly what makes them precious to me. It's not only the big moments I treasure. It's the tiny ones I catch without even trying.</p>
+<p>And somehow, in all those little moments, I keep finding another reason to be thankful that I met you.</p>
+<p class="signature">God bless the road that led me to you. ❤️</p>
+</div>
+<a class="btn" href="https://www.youtube.com/results?search_query=God+Bless+the+Broken+Road+Rascal+Flatts" target="_blank" rel="noopener">♪ Play our song</a>
+<p class="note">The song opens on YouTube. ❤️</p>
+</section>
+</main>
+<script>
+document.getElementById('open').onclick=()=>{
+ document.getElementById('open').style.display='none';
+ document.getElementById('intro').style.display='none';
+ document.getElementById('reveal').classList.remove('hidden');
+ window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
+};
+</script>
+</body>
+</html>
